@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "indigent-defense-stats"
+version = "0.1.0"
+description = "Scraper for collecting data about motions filed by public defenders in county courts"
+authors = ["Open Austin"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+spatula = "^0.8.3"
+pydantic = "^1.8.2"
+lxml = "^4.6.3"
+requests = "^2.25.1"
+pytest-recording = "^0.12.0"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.910"
+black = "^21.6b0"
+flake8 = "^3.9.2"
+pytest = "^6.2.4"
+pytest-cov = "^2.12.1"
+Sphinx = "^4.0.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
